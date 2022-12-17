@@ -1,8 +1,4 @@
 ﻿
-
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.CodeAnalysis;
-
 int[] asses = new int[10] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 int minNumber = asses [0];
@@ -29,6 +25,4 @@ Console.WriteLine($"min={minNumber}");
 Console.WriteLine($"max={maxNumber}");
 
 Console.WriteLine($"average={average}");
-
-
 
